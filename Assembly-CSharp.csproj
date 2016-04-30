@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{9C01AA66-DA31-F9A5-4754-7A124EF9D8B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 5.3.1f1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 5.3.1f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Cardboard\DemoScene\FPS.cs" />
+     <Compile Include="Assets\Cardboard\DemoScene\Teleport.cs" />
+     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUI.cs" />
+     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIMouse.cs" />
+     <Compile Include="Assets\Cardboard\Legacy\Scripts\CardboardOnGUIWindow.cs" />
+     <Compile Include="Assets\Cardboard\Legacy\Scripts\SkyboxMesh.cs" />
+     <Compile Include="Assets\Cardboard\Legacy\Scripts\StereoLensFlare.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudio.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioListener.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioRoom.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Audio\CardboardAudioSource.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\CardboardPostRender.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\CardboardPreRender.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\StereoRenderEffect.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\UI\CardboardReticle.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\UI\ICardboardPointer.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseAndroidDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseCardboardDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseVRDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\ButtonTrigger.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\DynamicText.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\LookAt_GameObject.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\Node.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\StatManager.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\Statistics.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\TextRead.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\TwineParser.cs" />
+     <Compile Include="Assets\LivreJeu\Scripts\TypewritingScript.cs" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\zh_TW.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\nl.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\hr.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\sk.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\uk.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\hi.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ja.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\id.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\en_IN.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\hu.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\pt_PT.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\sv.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\vi.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\en_AU.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\en.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\iw.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\es.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\en_GB.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\it.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ar.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\pt.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\fr.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\fi.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ru.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Cardboard\README.txt" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\zh_HK.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\th.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\el.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\tr.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\cs.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\es_MX.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ca.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\pl.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Cardboard\Resources\UI\CardboardReticleShader.shader" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\da.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\zh_CN.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\he.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Cardboard\Resources\SolidColor.shader" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\de.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\nb.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ro.lproj\CardboardSDK.strings.txt" />
+     <None Include="Assets\Plugins\iOS\CardboardSDK.bundle\Resources\ko.lproj\CardboardSDK.strings.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity 5.3.1f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity 5.3.1f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>C:/Users/Keryann/Documents/GitHub/LivreJeu/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
